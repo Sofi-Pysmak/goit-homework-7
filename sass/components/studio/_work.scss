@@ -1,0 +1,42 @@
+.work {
+  padding-top: 94px;
+  padding-bottom: 94px;
+
+  .title{
+    margin-bottom: 50px;
+  
+    color: $dark-text-color;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+  }
+
+  .item:not(:last-child) {
+    margin-right: 30px;
+  }
+
+}
+
+.work-list {
+  display: flex;
+
+   .label {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 370px;
+    height: 70px;
+    padding-top: 27px;
+  
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: $white-text-color;
+    background: rgba(47, 48, 58, 0.8);
+  }
+  .item {
+    position: relative;
+  }
+}

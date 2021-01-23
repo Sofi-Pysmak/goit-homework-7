@@ -1,0 +1,47 @@
+.features {
+  display: flex;
+  padding-top: 94px;
+
+  .icon-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 30px;
+
+  width: 270;
+  height: 120;
+  background:  $light-background-color;
+  border-radius: 4px;
+  color:  $dark-text-color;}
+
+  .icon {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+
+  width: 70px;
+  height: 70px;
+
+  fill: currentColor;}
+
+  .item {
+  margin-right: 30px;
+  width: 270px;
+    &:not(:last-child) {
+    margin-right: 30px;
+  }}
+
+ .features-title {
+  color:  $dark-text-color;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+  p {
+  margin-top: 10px;
+
+  line-height: 1.7;
+}}

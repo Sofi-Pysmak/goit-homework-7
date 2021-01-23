@@ -1,0 +1,145 @@
+.footer {
+  background-color: $dark-background-color;
+  color: $white-text-color;
+  padding: 60px 0;
+}
+.footer-content {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.footer-list {
+  display: flex;
+  align-items: baseline;
+}
+.footer-item:not(:nth-child(3)) {
+  margin-right: 70px;
+}
+.footer .logo {
+  display: inline-block;
+  margin-bottom: 20px;
+
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+}
+.footer .logo-web {
+  color: $accent-color;
+}
+
+.footer-logo-studio {
+  color: $white-text-color;
+}
+
+.logo.inverse {
+  color: $white-text-color;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.footer-address {
+  font-style: normal;
+}
+.footer-address .address-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+.address-item p {
+  line-height: 1.71;
+}
+.address-item a {
+  color: $light-text-color;
+  line-height: 1.71;
+  text-decoration: none;
+}
+.join {
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.social-list {
+  display: flex;
+}
+.social-item:not(:nth-child(4)) {
+  margin-right: 10px;
+}
+.social-link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  color: $white-text-color;
+  background-color: $social-bg-color;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  transition: background-color $timing-function;
+  -webkit-transition: background-color $timing-function;
+  -moz-transition: background-color $timing-function;
+  -ms-transition: background-color $timing-function;
+  -o-transition: background-color $timing-function;
+
+  &:hover,
+  &:focus {
+  background-color: $accent-color;}
+}
+.icon-instagram,
+.icon-twitter,
+.icon-facebook,
+.icon-linkedin {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+
+.footer-item form {
+  display: flex;
+}
+
+.footer-item input {
+  padding: 15px;
+  margin-right: 12px;
+  width: 358px;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-item .btn {
+  display: flex;
+  padding: 10px 30px;
+  margin: 0;
+  min-width: 200px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  align-items: center;
+
+  border-radius: 4px;
+  border: none;
+
+  color: $white-text-color;
+  background-color: $accent-color;
+
+  cursor: pointer;
+}
+
+.footer-item .btn::after {
+  display: inline-block;
+  content: '';
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+
+  background-image: url('../images/send.svg');
+}
+

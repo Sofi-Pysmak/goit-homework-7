@@ -1,0 +1,84 @@
+.portfolio-projects {
+  padding-top: 94px;
+  text-transform: capitalize;
+  color: $light-text-color;
+  font-size: 16px;
+  line-height: 1.9;
+
+
+ .text {
+  margin-top: 0px;
+  padding-top: 20px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  border: 1px solid;
+  border-top: none;
+  border-color: #e5e5e5;
+
+  color:  $light-text-color;
+}
+ .project-title {
+  margin-bottom: 4px;
+}
+
+.project-title {
+  color:  $dark-text-color;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+}
+
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-bottom: 94px;
+
+  .item {
+  margin: 15px;
+
+    &:hover {
+    background: #ffffff;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 1px rgba(248, 140, 140, 0.12),0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);}     
+  }
+  
+  a {
+  display: flex;
+  flex-direction: column;
+}}
+
+.img-content {
+  position: relative;
+  overflow: hidden;
+}
+
+.projects-list a:hover .img-text,
+.projects-list a:focus .img-text {
+  transform: translateY(0);
+}
+
+.img-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  padding: 63px 24px;
+  font-size: 18px;
+  line-height: 1.56;
+  color:  $white-text-color;
+  background-color: rgba(33, 150, 243, 0.9);
+  overflow: hidden;
+  transform: translateY(100%);
+  transition: transform  $timing-function;
+  -webkit-transition: transform  $timing-function;
+  -moz-transition: transform  $timing-function;
+  -ms-transition: transform  $timing-function;
+  -o-transition: transform  $timing-function;
+}
+
